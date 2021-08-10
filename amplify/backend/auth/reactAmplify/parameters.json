@@ -1,5 +1,5 @@
 {
-    "userPoolName": "react_amplify_user_pool",
+    "userPoolName": "ssbtest-staging",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -7,20 +7,18 @@
     "mfaTypes": [
         "SMS Text Message"
     ],
-    "roleName": "reactA60ae64e2_sns-role",
-    "roleExternalId": "reactA60ae64e2_role_external_id",
-    "policyName": "reactA60ae64e2-sns-policy",
+    "roleName": "amplify-login-lambda-d796575a",
+    "roleExternalId": "amplify-login-lambda-d796575a_role_external_id",
+    "policyName": "Cognito-1610698886864",
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
     "emailVerificationSubject": "Your verification code",
     "emailVerificationMessage": "Your verification code is {####}",
     "defaultPasswordPolicy": true,
-    "passwordPolicyMinLength": 8,
+    "passwordPolicyMinLength": 6,
     "passwordPolicyCharacters": [
         "Requires Lowercase",
-        "Requires Uppercase",
-        "Requires Numbers",
-        "Requires Symbols"
+        "Requires Numbers"
     ],
     "requiredAttributes": [
         "email"
